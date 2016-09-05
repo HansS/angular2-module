@@ -1,0 +1,1 @@
+export * from './src/angular2ModuleYo.module.ts';
