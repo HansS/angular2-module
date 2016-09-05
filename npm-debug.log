@@ -1,0 +1,49 @@
+0 info it worked if it ends with ok
+1 verbose cli [ 'C:\\Program Files\\nodejs\\node.exe',
+1 verbose cli   'C:\\Users\\Hans\\AppData\\Roaming\\npm\\node_modules\\npm\\bin\\npm-cli.js',
+1 verbose cli   'run',
+1 verbose cli   'gh-pages' ]
+2 info using npm@3.10.5
+3 info using node@v4.4.7
+4 verbose run-script [ 'pregh-pages', 'gh-pages', 'postgh-pages' ]
+5 info lifecycle angular2-module-yo@0.0.0~pregh-pages: angular2-module-yo@0.0.0
+6 silly lifecycle angular2-module-yo@0.0.0~pregh-pages: no script for pregh-pages, continuing
+7 info lifecycle angular2-module-yo@0.0.0~gh-pages: angular2-module-yo@0.0.0
+8 verbose lifecycle angular2-module-yo@0.0.0~gh-pages: unsafe-perm in lifecycle true
+9 verbose lifecycle angular2-module-yo@0.0.0~gh-pages: PATH: C:\Users\Hans\AppData\Roaming\npm\node_modules\npm\bin\node-gyp-bin;C:\Users\Hans\Web\frontend\platform\js\angular20\angular2-module-yo\node_modules\.bin;C:\Program Files\nodejs;C:\Users\Hans\Tools\ConEmu\Scripts;c:\program files\graphicsmagick-1.3.21-q8;C:\Program Files\ImageMagick-6.9.2-Q16-HDRI;C:\Users\Hans\Tools;C:\Users\Hans\Tools\ConEmu;C:\Python27\;C:\Python27\Scripts;C:\ProgramData\Oracle\Java\javapath;C:\Program Files (x86)\Intel\iCLS Client\;C:\Program Files\Intel\iCLS Client\;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\Program Files (x86)\Windows Live\Shared;C:\Program Files (x86)\Intel\OpenCL SDK\3.0\bin\x86;C:\Program Files (x86)\Intel\OpenCL SDK\3.0\bin\x64;C:\Users\Hans\Tools\apache-ant-1.9.6\bin;C:\cygwin64;C:\Program Files\Microsoft SQL Server\110\Tools\Binn\;C:\Program Files (x86)\Microsoft SDKs\TypeScript\1.0\;C:\Program Files\Microsoft SQL Server\120\Tools\Binn\;C:\Python27;C:\Users\Hans\AppData\Roaming\nvm;C:\Program Files\nodejs;C:\Users;C:\Program Files\MongoDB\Server\3.0\bin;C:\Redis-x64-3.0.500-rc1;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\Users\Hans\AppData\Local\Programs\Git\cmd;C:\Users\Hans\AppData\Local\Programs\Git\mingw64\bin;C:\Users\Hans\AppData\Local\Programs\Git\usr\bin;C:\Program Files\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files (x86)\Heroku\bin;C:\Program Files (x86)\git\cmd;C:\Program Files (x86)\Notepad++\;C:\Program Files\Java\jdk1.8.0_66;C:\android\platform-tools;C:\android\tools;C:\Program Files\PostgreSQL\9.5\bin;C:\Users\Hans\Tools\todo.txt_cli-2.10\;C:\Users\Hans\Tools\phantomJs\phantomjs-2.1.1-windows\bin\;C:\Users\Hans\AppData\Roaming\npm\node_modules\casperjs\bin\;C:\ProgramData\chocolatey\bin;C:\strawberry\c\bin;C:\strawberry\perl\site\bin;C:\strawberry\perl\bin;C:\Users\Hans\Tools\rethinkdb;C:\Program Files\Microsoft\Web Platform Installer\;C:\Users\Hans\Tools\Json-server-gui\json-server-gui-win;C:\Program Files (x86)\Brackets\command;C:\Program Files (x86)\Pandoc\;C:\Program Files\nodejs\;C:\Ruby23-x64\bin;C:\Program Files (x86)\Microsoft VS Code\bin;%ANDROID_PLATFORM;%ANDROID_TOOLS%;C:\Users\Hans\Tools\apache-ant-1.9.6\bin;C:\Program Files\Java\jdk1.8.0_66\bin;C:\Python27;C:\Users\Hans\AppData\Roaming\nvm;C:\Program Files\nodejs;C:\Users\Hans\AppData\Local\Programs\Git\cmd;C:\Users\Hans\AppData\Local\Programs\Git\mingw64\bin;C:\Users\Hans\AppData\Local\Programs\Git\usr\bin;C:\Program Files\MongoDB\Server\3.0\bin;C:\Redis-x64-3.0.500-rc1;C:\Program Files\Docker Toolbox;C:\Program Files\ImageMagick-6.9.2-Q16-HDRI;C:\Program Files (x86)\Nodist\bin;C:\Program Files (x86)\Google\google_appengine\;C:\android\platform-tools;C:\android\tools;C:\Users\Hans\Tools\todo.txt_cli-2.10\;C:\Users\Hans\Tools\phantomJs\phantomjs-2.1.1-windows\bin\;C:\Users\Hans\AppData\Roaming\npm\node_modules\casperjs\bin\;C:\Users\Hans\Tools\rethinkdb;%JSON-SERVER-GUI;C:\Users\Hans\AppData\Local\Programs\MiKTeX 2.9\miktex\bin\;C:\Users\Hans\AppData\Roaming\npm
+10 verbose lifecycle angular2-module-yo@0.0.0~gh-pages: CWD: C:\Users\Hans\Web\frontend\platform\js\angular20\angular2-module-yo
+11 silly lifecycle angular2-module-yo@0.0.0~gh-pages: Args: [ '/d /s /c',
+11 silly lifecycle   'git checkout gh-pages && git merge master && npm run build:demo && npm run typedoc && git add . && git commit -m \'chore: build demo and docs\' && git push && git checkout master' ]
+12 silly lifecycle angular2-module-yo@0.0.0~gh-pages: Returned: code: 1  signal: null
+13 info lifecycle angular2-module-yo@0.0.0~gh-pages: Failed to exec gh-pages script
+14 verbose stack Error: angular2-module-yo@0.0.0 gh-pages: `git checkout gh-pages && git merge master && npm run build:demo && npm run typedoc && git add . && git commit -m 'chore: build demo and docs' && git push && git checkout master`
+14 verbose stack Exit status 1
+14 verbose stack     at EventEmitter.<anonymous> (C:\Users\Hans\AppData\Roaming\npm\node_modules\npm\lib\utils\lifecycle.js:242:16)
+14 verbose stack     at emitTwo (events.js:87:13)
+14 verbose stack     at EventEmitter.emit (events.js:172:7)
+14 verbose stack     at ChildProcess.<anonymous> (C:\Users\Hans\AppData\Roaming\npm\node_modules\npm\lib\utils\spawn.js:40:14)
+14 verbose stack     at emitTwo (events.js:87:13)
+14 verbose stack     at ChildProcess.emit (events.js:172:7)
+14 verbose stack     at maybeClose (internal/child_process.js:827:16)
+14 verbose stack     at Process.ChildProcess._handle.onexit (internal/child_process.js:211:5)
+15 verbose pkgid angular2-module-yo@0.0.0
+16 verbose cwd C:\Users\Hans\Web\frontend\platform\js\angular20\angular2-module-yo
+17 error Windows_NT 10.0.10586
+18 error argv "C:\\Program Files\\nodejs\\node.exe" "C:\\Users\\Hans\\AppData\\Roaming\\npm\\node_modules\\npm\\bin\\npm-cli.js" "run" "gh-pages"
+19 error node v4.4.7
+20 error npm  v3.10.5
+21 error code ELIFECYCLE
+22 error angular2-module-yo@0.0.0 gh-pages: `git checkout gh-pages && git merge master && npm run build:demo && npm run typedoc && git add . && git commit -m 'chore: build demo and docs' && git push && git checkout master`
+22 error Exit status 1
+23 error Failed at the angular2-module-yo@0.0.0 gh-pages script 'git checkout gh-pages && git merge master && npm run build:demo && npm run typedoc && git add . && git commit -m 'chore: build demo and docs' && git push && git checkout master'.
+23 error Make sure you have the latest version of node.js and npm installed.
+23 error If you do, this is most likely a problem with the angular2-module-yo package,
+23 error not with npm itself.
+23 error Tell the author that this fails on your system:
+23 error     git checkout gh-pages && git merge master && npm run build:demo && npm run typedoc && git add . && git commit -m 'chore: build demo and docs' && git push && git checkout master
+23 error You can get information on how to open an issue for this project with:
+23 error     npm bugs angular2-module-yo
+23 error Or if that isn't available, you can get their info via:
+23 error     npm owner ls angular2-module-yo
+23 error There is likely additional logging output above.
+24 verbose exit [ 1, true ]
